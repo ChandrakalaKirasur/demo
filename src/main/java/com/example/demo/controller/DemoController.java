@@ -12,7 +12,7 @@ public class DemoController {
 		return "Welcome to your practice room";
 	}
 	@GetMapping("/wishes")
-	public String getWelcomed() {
+	public String getWishes() {
 		return "Good Morning!! Welcome to Bangalore";
 	}	
 
