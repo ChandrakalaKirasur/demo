@@ -11,6 +11,9 @@ public class DemoController {
 	public String getWelcomed() {
 		return "Welcome to your practice room";
 	}
-	
+	@GetMapping("/wishes")
+	public String getWelcomed() {
+		return "Good Morning!! Welcome to Bangalore";
+	}	
 
 }
